@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+/* This is the Nav Bar */
+
+.navBar{
+    width: 80%;
+    margin: 0 auto;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leafIcon{
+    width: 40px;
+    background-color: #02d0b2;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+#cartIcon{
+    width: 40px;
+}
+
+.easyBay{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+input{
+    width: 55%;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+}
+
+/* This is the Header */
+
+.header{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.plantList{
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px black;
+}
+
+.plantList ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+/* This is the 2nd Header */
+
+.header2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header2 h1{
+    font-weight: 300;
+    font-size: 2.2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* This is the Middle Body */
+
+.middleBody{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* This is the Discover Card */
+
+.discoverCard{
+    display: flex;
+    width: 654%;
+    justify-content: space-between;
+
+    height:250px ;
+}
+
+.discoverText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.6em;
+    height: 250px;
+    width: 250px;
+    width: 100%;
+    color: white;
+    background-color: #02d0b2;
+}
+
+.discoverText h2{
+    font-weight: 575;
+}
+
+.discoverText h3{
+    font-weight: 300;
+}
+
+.discoverImg img{
+    width: 250px;
+    margin-right: 20px;
+}
+
+/* This is the Aloe Card */
+
+.aloeCard{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.aloeCard img{
+    width: 250px;
+}
+
+.aloeText{
+    height: 65px;
+    width: 100%;
+    background-color: #02d0b2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aloeText h3{
+    font-size: 1.7em;
+    color: white;
+    font-weight: 400;
+}
+
+/* This is the Bottom Body */
+
+.bottomBody{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #aae7d8;
+    height: 170px;
+    padding-bottom: 10px;
+}
+
+.bottomList {
+    width: 100%;
+}
+
+.bottomList ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.bottomList img{
+    width: 105px;
+    border-radius: 50%;
+}
+
+.plantImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* This is the Cookie Card */
+
+.cookieCard{
+    width: 80%;
+    margin: 0 auto;
+    border: solid 3px black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 9.75%;
+    top: 610px;
+}
+
+.cookieText{
+    width: 70%;
+    font-size: 1.15em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+#alertImg{
+    margin-left: 2%;
+}
+
+#acceptButton{
+    width: 10%;
+    height: 30px;
+    background-color: #02d0b2;
+    color: white;
+    box-shadow: 4px 4px black;
+    margin-right: 2% ;
+}

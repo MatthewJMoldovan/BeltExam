@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Succulent Shop</title>
+</head>
+
+<body>
+    <!-- This is the Nav Bar -->
+    <nav class="navBar">
+        <div class="easyBay">
+            <img id="leafIcon" src="/images/assets/leaf.png" alt="Leaf Icon">
+            <h2>EasyBay</h2>
+        </div>
+        <input type="text" name="Search Bar" placeholder="    Search for anything">
+        <a href="#">Sign In</a>
+        <img onclick="alert('Your Cart is Empty!')" id="cartIcon" src="images/assets/cart-dark.png" alt="Cart Icon">
+    </nav>
+    <!-- This is the Header -->
+    <div class="header">
+        <div class="plantList">
+            <ul>
+                <li>Aeonium</li>
+                <li>Andromischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+    </div>
+    <!-- This is the 2nd Header -->
+    <div class="header2">
+        <h1>Your Source to Serious Succulent Specialties</h1>
+    </div>
+    <!-- This is the Middle Body -->
+    <div class="middleBody">
+        <div class="discoverCard">
+            <div class="discoverText">
+                <h3>Discover succ- <br> ulnet varieties <br> one pot or rack <br>at a time!</h3>
+                <h2>Discover → </h2>
+            </div>
+            <div class="discoverImg">
+                <img onmouseover="over(this)" onmouseout="out(this)" src="/images/assets/succulents-1.jpg" alt="succulentImg1"  id="discoverImage">
+            </div>
+        </div>
+        <!-- Thi is the Aloe Card -->
+        <div class="aloeCard">
+            <img src="/images/assets/aloe-m.jpg" alt="Soothing Aloe Img">
+            <div class="aloeText">
+                <h3>Soothing Aloe →</h3>
+            </div>
+        </div>
+    </div>
+    <!-- This is the Bottom Body -->
+    <div class="bottomBody">
+        <div class="bottomList">
+            <ul>
+                <li>
+                    <div class="plantImages">
+                    <img src="/images/assets/aeonium-s.jpg" alt="Aeonium Img"><br> <p>Aeonium</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="plantImages">
+                        <img src="/images/assets/aloe-s.jpg" alt="Agave Img"><br> <p>Agave</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="plantImages">
+                        <img src="/images/assets/cactus-s.jpg" alt="Cactus img"><br> <p>Cactus</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="plantImages">
+                        <img src="/images/assets/echeveria-s.jpg" alt="Echeveria Img"><br> <p>Echeveria</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="plantImages">
+                        <img src="/images/assets/sedum-s.jpg" alt="Sedum Img"><br> <p>Sedum</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="plantImages">
+                        <img src="/images/assets/sempervivum-s.jpg" alt="Sempervivum"><br> <p>Sempervivum</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+            <!-- This is the Cookie Message -->
+            <div class="cookieCard" id="cookieCard">
+                <img src="/images/assets/alert-dark.png" alt="Alert Img" id="alertImg">
+                <div class="cookieText">
+                    <p>This site makes use of third-party cookies, by cliking "I accept" <br> you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+                </div>
+                <button onclick="acceptCookies(cookies)" id="acceptButton">I Accept</button>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
